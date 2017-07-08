@@ -118,9 +118,9 @@ input#img-3:checked ~ .nav-dots label#img-dot-3 {
 }
 .live{
 	background-color: #4f4a55;
-	max-width: 1038px;
-	overflow-x: scroll;
-	white-space: nowrap;
+	max-width: 1050px;
+/*	overflow-x: scroll;
+	white-space: nowrap;*/
 }
 
 .live h1{
@@ -128,18 +128,20 @@ input#img-3:checked ~ .nav-dots label#img-dot-3 {
 	color: #2dff80;
 	font-size: 24px;
 }
-div.item {
-    /* To correctly align image, regardless of content height: */
-    vertical-align: top;
-    display: inline-block;
-    /* To horizontally center images and caption */
-    text-align: center;
-    /* The width of the container also implies margin around the images. */
-    width: 153px;
-    padding: 3px;
+.members-title{
+	background-color: #4f4a55;
+	max-width: 1038px;
 }
 
-.caption {
-	display: block;
+.members h1{
+	text-align: center;
+	color: #2dff80;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 24px;
 }
-   
+.footer{
+	background-image: url(Images/footer.png);
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+}
