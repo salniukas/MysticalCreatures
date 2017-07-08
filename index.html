@@ -60,17 +60,47 @@
 <div class="live" align="middle">
 	<h1>Dabar Transliuoja</h1>
 	<div class="live-streamers">
-		<img src="Images/arrow_left.png" align="middle">
-		<a href="#"></a><img src="Images/arnasstb-300x300.png" class="img-circle" align="middle" id="streamer-1"></a>
-		<p id="streamer-1-views" style="margin: 0; padding: 0;"><img src="Images/view_icon.png"> 128</p>
-		<a href="#"></a><img src="Images/gandras-300x300.png" class="img-circle" align="middle"></a>
-		<a href="#"></a><img src="Images/spo 300x300.png" class="img-circle" align="middle"></a>
-		<a href="#"></a><img src="Images/gretasweet-300x300.png" class="img-circle" align="middle"></a>
-		<a href="#"></a><img src="Images/BashfulDevil-300x300.png" class="img-circle" align="middle"></a>
-
-		<img src="Images/arrow_right.png" align="middle">
-		<p>
+	<img src="Images/arrow_left.png" style="padding: 25px;" align="middle" class="scrollleft">
+		<a href="#" style="text-decoration: none;"><div class="item">
+		    <img src="Images/arnasstb-300x300.png" class="img-circle"/>
+		    <span class="caption"><img src="Images/view_icon.png">128</span>
+		</div></a>
+		<div class="item">
+		    <img src="Images/spo 300x300.png" class="img-circle"/>
+		    <span class="caption"><img src="Images/view_icon.png">128</span>
+		</div>
+		<div class="item">
+		    <img src="Images/gandras-300x300.png" class="img-circle"/>
+		    <span class="caption"><img src="Images/view_icon.png">128</span>
+		</div>
+		<a><div class="item">
+		    <img src="Images/arnasstb-300x300.png" class="img-circle"/>
+		    <span class="caption"><img src="Images/view_icon.png">128</span>
+		</div></a>
+		<div class="item">
+		    <img src="Images/arnasstb-300x300.png" class="img-circle"/>
+		    <span class="caption"><img src="Images/view_icon.png">128</span>
+		</div>
+		<div class="item">
+		    <img src="Images/arnasstb-300x300.png" class="img-circle"/>
+		    <span class="caption"><img src="Images/view_icon.png">128</span>
+		</div>
+		<img src="Images/arrow_right.png" style="padding: 25px; cursor: pointer;" align="middle" class="scrollright">
 	</div>
+	<script>
+		$('.scrollleft').click(function () {
+		    console.log('ok')
+		    $('#scrollbar').animate({
+		        scrollLeft: '-=153'
+		    }, 1000, 'easeOutQuad');
+		});
+		$('.scrollright').click(function () {
+		    console.log('ok')
+		    $('.live-streamers').animate({
+		        scrollLeft: '+=153'
+		    }, 1000, 'easeOutQuad');
+		});
+	</script>
 </div>
 </center>
 </body>

@@ -119,6 +119,8 @@ input#img-3:checked ~ .nav-dots label#img-dot-3 {
 .live{
 	background-color: #4f4a55;
 	max-width: 1038px;
+	overflow-x: scroll;
+	white-space: nowrap;
 }
 
 .live h1{
@@ -126,6 +128,18 @@ input#img-3:checked ~ .nav-dots label#img-dot-3 {
 	color: #2dff80;
 	font-size: 24px;
 }
-.live-streamers{
-	display: inline;
+div.item {
+    /* To correctly align image, regardless of content height: */
+    vertical-align: top;
+    display: inline-block;
+    /* To horizontally center images and caption */
+    text-align: center;
+    /* The width of the container also implies margin around the images. */
+    width: 153px;
+    padding: 3px;
 }
+
+.caption {
+	display: block;
+}
+   
