@@ -1,0 +1,11 @@
+body{
+	background-color: #3c2e48;
+	max-width: 1200px;
+}
+ul{
+	display: inline-block;
+	list-style-type: none;
+}
+ul.li{
+	width: 200px;
+}
