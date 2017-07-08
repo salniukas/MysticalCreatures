@@ -139,9 +139,29 @@ input#img-3:checked ~ .nav-dots label#img-dot-3 {
 	font-family: 'Titillium Web', sans-serif;
 	font-size: 24px;
 }
-.footer{
-	background-image: url(Images/footer.png);
-	padding: 0px;
-	margin: 0px;
-	width: 100%;
+.footer {
+  position: absolute;
+  right: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #1c1a1d;
+  text-align: center;
+  font-size: 16px;
+}
+.footer p{
+    color: #fff;
+}
+.footer img{
+    width: 64px;
+    height: 64px;
+}
+.footer ul {
+    list-style-type: none;
+    white-space: nowrap;
+}
+.footer li {
+    display: inline-block;
+    padding: 5px;
+    margin: 0;
+    white-space: nowrap;
 }
