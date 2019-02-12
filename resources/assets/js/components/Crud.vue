@@ -1,6 +1,6 @@
 <template>
     <div class="crud">
-        <div class="col-md-2">
+        <div class="col-md-3">
         <a :href="link"><img :src="image"/></a>
         <center><a :href="link"><h3>{{ name | properCase }}</h3></a></center>
       </div>

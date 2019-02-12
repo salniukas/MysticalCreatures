@@ -3,8 +3,8 @@
   <section id="hi">
     <div class="container-fluid">
     <div class="row">
-      <img src="img/logo.png" class="col-md-2" style="margin-left: 110px;">
-      <ul class="col-md-5" style="margin-top: 130px; margin-left: 250px;">
+      <img src="img/logo.png" class="col-md-2 col-sm-4 col-xs-5" style="margin-left: 110px;">
+      <ul class="col-md-5 col-sm-6" style="margin-top: 130px; margin-left: 250px;">
         <li><a href="#">PAGRINDINIS</a></li>
         <li><a href="#">DABAR TRANSLIUOJA</a></li>
         <li><a href="#">BENDRUOMENĖ</a></li>
@@ -19,7 +19,7 @@
   <stream></stream>
 
   <section id="community">
-    <div class="container" style="margin-top: 50px;">
+    <div class="container-fluid" style="margin-top: 50px;">
       <div><center><h1>Bendruomenė</h1></center></div>
       <div class="row" style="margin-top: 25px; margin-left: 150px; margin-bottom: 50px;">
       <crud-component
